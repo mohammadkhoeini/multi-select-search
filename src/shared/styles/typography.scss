@@ -1,0 +1,16 @@
+@import "@fontsource/roboto";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+@import "@fontsource/roboto/900.css";
+
+@mixin roboto-font {
+  font-family: "Roboto";
+}
+
+@mixin font-size($size) {
+  font-size: $size/16 + rem;
+}
+
+@mixin line-height($size) {
+  line-height: $size/16 + rem;
+}
